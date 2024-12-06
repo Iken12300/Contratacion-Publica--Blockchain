@@ -188,7 +188,7 @@ const MisPropuestas = () => {
                                     {estado !== 'Ganadora' && estado !== 'No Seleccionada' && (
                                         <button
                                             onClick={() => eliminarPropuesta(propuesta.licitacion.id, propuesta.id)}
-                                            className="absolute top-4 right-4 p-2 rounded-full 
+                                            className="flex top-4 right-4 p-2 m-5 rounded-full 
                                                       bg-red-900 bg-opacity-30 border border-red-500 border-opacity-30
                                                       text-red-300 hover:bg-opacity-50 transition-all duration-200"
                                             disabled={loading}
